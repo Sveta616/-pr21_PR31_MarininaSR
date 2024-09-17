@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Crim">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="24sp"
+        style="android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title">
+    </TextView>
+    <EditText
+        android:id="@+id/crime_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter">
+    </EditText>
+    <TextView
+        android:textSize="24sp"
+        android:textStyle="bold"
+        style="android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/details">
+    </TextView>
+    <Button
+        android:id="@+id/crime_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Wed Nov 14 11:56 EST 2018">
+    </Button>
+    <CheckBox
+        android:id="@+id/crime_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Solv"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:src="@drawable/fub"
+        app:rippleColor="@color/white"
+        android:onClick="Fabcl"/>
+
+</LinearLayout>

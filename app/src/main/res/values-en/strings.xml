@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="title">Title</string>
+    <string name="enter">Enter the crime</string>
+    <string name="details">Details</string>
+</resources>
